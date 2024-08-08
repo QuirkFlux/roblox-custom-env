@@ -1,6 +1,6 @@
 local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
-local ui = script.UI
+local ui = script.UI:Clone()
 
 local wl = "https://raw.githubusercontent.com/QuirkFlux/roblox-custom-env/main/whitelist.json"
 
