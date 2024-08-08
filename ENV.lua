@@ -16,6 +16,7 @@ end
 
 -- Copy global functions to customEnv
 customEnv.print = print
+customEnv.require = require
 customEnv.select = select
 customEnv.unpack = table.unpack
 customEnv.error = error
