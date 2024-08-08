@@ -25,6 +25,7 @@ customEnv.ipairs = ipairs
 customEnv.tonumber = tonumber
 customEnv.bit32 = deepCopy(bit32 or {})
 customEnv.tostring = tostring
+customEnv.warn = warn
 
 -- Copy string functions to customEnv
 customEnv.string = {
