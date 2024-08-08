@@ -21,9 +21,9 @@ local ClearButton = script.Parent:FindFirstChild("Clear")
 local TransformButton = script.Parent:FindFirstChild("Transform")
 
 -- Debugging output to verify button references
-print("ConfirmButton:", ConfirmButton)
-print("ClearButton:", ClearButton)
-print("TransformButton:", TransformButton)
+--print("ConfirmButton:", ConfirmButton)
+--print("ClearButton:", ClearButton)
+--print("TransformButton:", TransformButton)
 
 if not ConfirmButton or not ConfirmButton:IsA("TextButton") then
 	warn("ConfirmButton (Execute) not found or not a TextButton")
